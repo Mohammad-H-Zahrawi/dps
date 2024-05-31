@@ -41,7 +41,7 @@ with open("mymodel.pkl", "rb") as f:
 
 def index():
 
-    return {'message': 'This is Mohammad Zahrawi'}
+    return {'message': 'This is Dana Alzoubi project for DPS bootcamp'}
 
 @app.post('/prediction')
 def get_music_category(data: Music):
